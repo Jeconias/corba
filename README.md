@@ -12,6 +12,22 @@ sudo apt install omniidl-python
 sudo apt install openjdk-8-jre
 ```
 
+### How to install omniidl on Windows
+
+- Download the [omniORBpy](https://sourceforge.net/projects/omniorb/files/omniORBpy/)
+- Choose the version for windows. Ex: omniORBpy-4.2.2-win64-python2.7.zip
+- Unzip the file any directory
+- Create the environment variable using the name **PYTHONPATH** that pointes to: ...\\omniORBpy\\lib\\python and ...\\omniORBpy\\lib\\x86_win32
+- Add "...\\omniORBpy\\bin\\x86_win32" in environment variable PATH.
+
+Obs: To add multiple points on one environment variable is necessary split using ";".
+
+Ex:
+
+Key: **PYTHONPATH**
+
+Value: c:\\omniORBpy\\lib\\python;c:\\omniORBpy\\bin\\x86_win32
+
 #### Generate the files for Java and Python based on Corba interface
 
 ```
