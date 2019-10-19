@@ -19,6 +19,7 @@ sudo apt install openjdk-8-jre
 - Unzip the file any directory
 - Create the environment variable using the name **PYTHONPATH** that pointes to: ...\\omniORBpy\\lib\\python and ...\\omniORBpy\\lib\\x86_win32
 - Add "...\\omniORBpy\\bin\\x86_win32" in environment variable **PATH**.
+- Restart your terminal
 
 Obs: To add multiple points on one environment variable is necessary split using ";".
 
