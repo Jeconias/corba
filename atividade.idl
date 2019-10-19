@@ -1,0 +1,5 @@
+module EncryptDecrypt {
+    interface EDString {
+        string echoString(in string msg);
+    };
+};
